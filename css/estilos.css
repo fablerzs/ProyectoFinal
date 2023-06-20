@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@100;200;300;400&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+body{
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    color: black;
+    justify-content: space-between;
+    gap: 1em;
+    font-size: 13px;
+}
