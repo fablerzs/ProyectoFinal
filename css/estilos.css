@@ -2,27 +2,240 @@
 
 
 *{
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Be Vietnam Pro', sans-serif;
     max-width: 1440px;
     box-sizing: border-box;
-}
-
-body{
-    border: 2px solid black;
+    font-size: 16px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
 }
 
 .menu {
     display: flex;
     list-style: none;
-    color: black;
+    gap: 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #232851;
+    font-weight: 500;
+}
+
+header button, .texto_portada button, .botonmore {
+    background-color: #8B48BF;
+    border: none;
+    height: 44px;
+    width: 134px;
+    border-radius: 20px;
+    color: white;
+}
+
+.portada {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    gap: 1em;
+    padding: 30px;
+    gap: 4rem;
+    margin-bottom: 40px;
+    width: 70%;
+}
+
+.texto_portada {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.texto_portada h2 {
+    font-weight:600;
+    font-size:50px;
+}
+
+.texto_portada p {
+    font-weight: 600;
+}
+
+.descripcion_titulo {
+    background-color: #8B48BF;
+    color: white;
+    display: flex;
+    height: 168px;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.descripcion_titulo h3 {
+    font-weight: 500;
+    font-size:36px;
+    width: 35%;
+}
+
+.descripcion_titulo p {
+    width: 35%;
+}
+
+.caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+    gap: 2rem;
+    padding: 30px;
+}
+
+.recuadro_caracteristicas {
+    width: 560px;
+    height: 162px;
+    padding: 10px;
+}
+
+.recuadro_caracteristicas span {
+    background-color: #8B48BF;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70px;
+    height: 43px;
+    color: white;
+    margin-right: 10px;
+}
+
+.recuadro_caracteristicas div {
+    padding-top: 10px;
+    color: #232851;
+}
+
+.recuadro_caracteristicas p {
+    padding: 10px;
+    position:relative;
+    left: 42px;
+    color: #B3B2B7;
+}
+
+.lo_mejor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lo_mejor h3 {
+    font-weight:bold;
+    font-size: 40px;
+    color: #232851;
+    padding: 3em;
+}
+
+.las_tarjetas {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.tarjeta {
+    width: 445px;
+    height: 254px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.tarjeta img {
+    position: relative;
+    top: -35px
+}
+
+.tarjeta div {
+    color: #232851;
+    font-weight: bold;
+    padding-bottom:2rem;
+}
+
+.tarjeta p {
+    color: #B3B2B7;
+}
+
+.boton_goforit {
+    background-color: #8B48BF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    height: 224px;
+}
+
+.boton_goforit h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    width: 393px;
+}
+.botongo {
+    background-color: white;
+    border: none;
+    height: 44px;
+    width: 134px;
+    border-radius: 20px;
+    color: #8B48BF;
+}
+
+footer {
+    background-color: #1E1E26;
+    display: flex;
+    height: 297px;
+    align-items: center;
+}
+
+.logo_iconos, .formulario {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu_footer {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+}
+
+.menu_footer a {
+    text-decoration: none;
+    color: white;
+    list-style:none;
+    padding: 30px;
+}
+
+.formulario button {
+    background-color: #8B48BF;
+    border: none;
+    height: 44px;
+    width: 63px;
+    border-radius: 20px;
+    color: white;
+}
+
+.formulario input {
+    background-color: white;
+    border: none;
+    height: 44px;
+    width: 201px;
+    border-radius: 20px;
+    color: #8B48BF;
+    font-weight: 700;
     font-size: 13px;
+    color: #B3B2B7;
+}
+
+.formulario div {
+    color: #8C8C94;
+    font-size: 12.5px;
 }
