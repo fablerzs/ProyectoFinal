@@ -66,6 +66,7 @@ header button, .texto_portada button, .botonmore {
     gap: 2rem;
     max-width: 459px;
     align-items: end;
+    margin-right: 20px;
 }
 
 .texto_portada h2 {
@@ -161,7 +162,9 @@ header button, .texto_portada button, .botonmore {
     font-weight:bold;
     font-size: 40px;
     color: #232851;
-    padding: 3em;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .las_tarjetas {
@@ -213,7 +216,7 @@ header button, .texto_portada button, .botonmore {
     font-size: 40px;
     font-weight: bold;
     color: white;
-    width: 393px;
+    width: 40%;
     position: relative;
 }
 .botongo {
@@ -298,7 +301,7 @@ footer {
     }
 
     .portada img {
-        max-width: 400px;
+        max-width: 90%;
         margin-bottom: 40px;
     }
 
@@ -316,11 +319,11 @@ footer {
         gap: 3rem;
     }
 
-    .boton_goforit button {
-        background-color: #232851;
-        color: white;
+    .descripcion_titulo p, .descripcion_titulo h3 {
+        width: 95%;
     }
 
+   
     .caracteristicas {
         background-color: white;
     }
@@ -331,14 +334,31 @@ footer {
         margin-left: 20px;
         right: 0px;
     }
-
-  
+    
     .recuadro_caracteristicas p {
         position: relative;
         left: 20px;
     }
 
+    .tarjeta {
+        width: 95%;
+    }
+
     .tarjetad {
         display: none;
+    }
+
+    .boton_goforit h2{
+        width: 85%;
+        text-align: center;
+    }
+
+    .boton_goforit button {
+        background-color: #232851;
+        color: white;
+    }
+
+    .enlaces {
+        gap: 15px;
     }
 }
