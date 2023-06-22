@@ -161,10 +161,8 @@ header button, .texto_portada button, .botonmore {
 .lo_mejor h3 {
     font-weight:bold;
     font-size: 40px;
-    color: #232851;
-    
-    margin-top: 100px;
-    margin-bottom: 100px;
+    color: #232851; 
+    margin: 100px 0px;
 }
 
 .las_tarjetas {
@@ -237,7 +235,7 @@ footer {
     justify-content: center;
     gap: 13%;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 50px 0px;
 }
 
 .logo_iconos, .formulario {
@@ -246,6 +244,12 @@ footer {
     height: 80%;
     justify-content: space-between;
     gap: 80px;
+    align-items: center;
+}
+
+
+.logo_footer {
+    width: 108px;
 }
 
 .enlaces {
@@ -290,6 +294,7 @@ footer {
 .formulario div {
     color: #8C8C94;
     font-size: 12.5px;
+    text-align: center;
 }
 
 /*MEDIA QUERIES*/
@@ -359,6 +364,37 @@ footer {
     }
 
     .enlaces {
-        gap: 15px;
+        gap: 14vh;
+        margin: 20px 0px;;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo_iconos {
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .iconos_footer {
+        display: flex;
+        gap: 12vw;
+        justify-content: center;
+    }
+
+    .formulario input {
+        width: 65vw;
+    }
+
+    .formulario {
+        position: relative;
+    }
+
+    .formulario div {
+        position: absolute;
+        bottom: -45vh;
     }
 }
