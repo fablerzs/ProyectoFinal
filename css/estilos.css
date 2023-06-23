@@ -445,7 +445,7 @@ button:hover {
 }
 
 .tarjeta:hover, .tarjetad:hover {
-    transform: scale(1.01);
+    transform: translateY(-10px);
     border: 1px black solid;
 }
 
@@ -472,6 +472,6 @@ header div img:hover {
 
 
 .numero:hover {
-    transform: translate(3px);
+    transform: translate(20px);
 }
 
