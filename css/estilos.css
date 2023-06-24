@@ -45,9 +45,10 @@ header button, .texto_portada button, .botonmore {
 }
 
 .hamburguesa {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     display: none;
+    transition: all 0.2s;
 }
 
 /*PORTADAAA */
@@ -313,6 +314,11 @@ footer {
     text-align: center;
 }
 
+.iconos_footer {
+    display: flex;
+    gap: 15px;
+}
+
 /*MEDIA QUERIES*/
 
 @media (max-width:500px) {
@@ -466,12 +472,25 @@ header div img:hover {
     transform: scale(1.04);
 }
 
-.texto_portada:hover {
-    transform: scale(1.04);
-}
-
-
 .numero:hover {
     transform: translate(20px);
 }
+
+.iconos_footer a img {
+    transition: all 0.1s;
+}
+
+.iconos_footer a img:hover{
+    transform: scale(1.09);
+}
+
+.logo_footer:hover {
+    cursor:pointer;
+}
+
+.hamburguesa:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
 
