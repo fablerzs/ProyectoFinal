@@ -8,11 +8,6 @@
     font-size: 16px;
 }
 
-body {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 /*HEADEEEER */
 
 header {
@@ -118,6 +113,8 @@ header button, .texto_portada button, .botonmore {
     background-color: #FAFAFA;
     gap: 2rem;
     padding-bottom: 50px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .recuadro_caracteristicas {
@@ -353,6 +350,7 @@ footer {
    
     .caracteristicas {
         background-color: white;
+        width: 100%;
     }
 
     .titulo_recuadro {
